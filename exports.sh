@@ -2,4 +2,5 @@
 export DB_USER=user
 export DB_PWD=password
 export DB_SERVER=localhost
-export DB_NAME=dbName
+export DB_NAME=dbName &&
+env | grep DB_
