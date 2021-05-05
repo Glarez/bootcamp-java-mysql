@@ -1,0 +1,16 @@
+2021-05-04 01:43:08+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.24-1debian10 started.
+2021-05-04 01:43:08+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2021-05-04 01:43:08+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.24-1debian10 started.
+2021-05-04 01:43:08+00:00 [Note] [Entrypoint]: Initializing database files
+2021-05-04 01:43:19+00:00 [Note] [Entrypoint]: Database files initialized
+2021-05-04 01:43:19+00:00 [Note] [Entrypoint]: Starting temporary server
+2021-05-04 01:43:20+00:00 [Note] [Entrypoint]: Temporary server started.
+2021-05-04 01:43:22+00:00 [Note] [Entrypoint]: Creating database dbName
+2021-05-04 01:43:22+00:00 [Note] [Entrypoint]: Creating user user
+2021-05-04 01:43:22+00:00 [Note] [Entrypoint]: Giving user user access to schema dbName
+
+2021-05-04 01:43:22+00:00 [Note] [Entrypoint]: Stopping temporary server
+2021-05-04 01:43:25+00:00 [Note] [Entrypoint]: Temporary server stopped
+
+2021-05-04 01:43:25+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+
