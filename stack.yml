@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.8'
 
 services:
 
@@ -10,6 +10,8 @@ services:
       MYSQL_DATABASE: ${DB_NAME}
       MYSQL_USER: ${DB_USER}
       MYSQL_PASSWORD: ${DB_PWD}
+    volumes:
+      - dbase:/var/lib/mysql
   
   phpmyadmin:
     image: phpmyadmin
@@ -18,3 +20,7 @@ services:
       - 8081:80
     environment:
       - PMA_ARBITRARY=1
+
+volumes:
+ dbase:
+  driver: local
