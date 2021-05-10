@@ -20,6 +20,15 @@ services:
       - 8081:80
     environment:
       - PMA_ARBITRARY=1
+  javapp:
+    image: javapp:1.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PWD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PWD}
+    ports:
+     - 8080:8080
 
 volumes:
  dbase:
